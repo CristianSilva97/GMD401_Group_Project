@@ -12,8 +12,8 @@ This project represents a collaborative effort involving the entire course, unit
 - **Artist 2:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Artist 3:** [Artist Name]
-  - **Linkedin or Portfolio:** [Link]
+- **Artist 3:** [Macsen Evans]
+  - **Linkedin or Portfolio:** [https://www.linkedin.com/in/macsen-evans-2b5a20211/]
 
 - **Artist 4:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]

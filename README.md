@@ -8,20 +8,22 @@ This project represents a collaborative effort involving the entire course, unit
 
 ## Leadership team:
 
+## test test test producer ---- test test 
+
 ## Team Lead: 
 
-## Programmer Lead:
+## Lead Programmers:
 
-## - **Artist lead:** 
-  **Sunflower Sealy**
-  - **Linkedin or Portfolio:** [https://www.linkedin.com/in/sunflower-sealy-b0a742298/]
+## - **Lead Artist:** 
+- **Sunflower Sealy**
+  - **Linkedin:** [https://www.linkedin.com/in/sunflower-sealy-b0a742298/]
 
 ## Artists
 - **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Artist:**   Macsen Evans
-  - **Linkedin or Portfolio:** [https://www.linkedin.com/in/macsen-evans-2b5a20211/]
+- **Macsen Evans**
+  - **Linkedin:** [https://www.linkedin.com/in/macsen-evans-2b5a20211/]
 
 - **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
@@ -36,8 +38,8 @@ This project represents a collaborative effort involving the entire course, unit
   - **Linkedin or Portfolio:** [Link]
 
 ## Programmers
-- **Programmer:** [Cristian Silva]
-  - **Linkedin or Portfolio:** [https://www.linkedin.com/in/cristian-camilo-silva-padilla-476382147]
+- **[Cristian Silva]**
+  - **Linkedin:** [https://www.linkedin.com/in/cristian-camilo-silva-padilla-476382147]
 
 - **Programmer:** [Programmer Name]
   - **Linkedin or Portfolio:** [Link]

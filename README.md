@@ -13,7 +13,7 @@ This project represents a collaborative effort involving the entire course, unit
 ## Programmer Lead:
 
 ## - **Artist lead:** 
-  ## Sunflower Sealy
+  **Sunflower Sealy**
   - **Linkedin or Portfolio:** [https://www.linkedin.com/in/sunflower-sealy-b0a742298/]
 
 ## Artists

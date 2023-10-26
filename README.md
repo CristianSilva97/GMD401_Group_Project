@@ -5,42 +5,49 @@
 
 This project represents a collaborative effort involving the entire course, uniting the creative talents of our seven artists and the technical expertise of five programmers, each with diverse backgrounds but a shared purpose. We are proud to announce that this project is developed in collaboration with the College of Health Professions & Natural Sciences at Wilmington University.
 
+
+## Leadership team:
+
+## Team Lead: 
+
+## Programmer Lead:
+
+## - **Artist lead:** [Sunflower Sealy ]
+  - **Linkedin or Portfolio:** [https://www.linkedin.com/in/sunflower-sealy-b0a742298/]
+
 ## Artists
-- **Artist 1:** [Artist Name]
+- **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Artist 2:** [Artist Name]
-  - **Linkedin or Portfolio:** [Link]
-
-- **Artist 3:** [Macsen Evans]
+- **Artist:** [Macsen Evans]
   - **Linkedin or Portfolio:** [https://www.linkedin.com/in/macsen-evans-2b5a20211/]
 
-- **Artist 4:** [Artist Name]
+- **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Artist 5:** [Artist Name]
+- **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Artist 6:** [Artist Name]
+- **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Artist 7:** [Artist Name]
+- **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
 ## Programmers
-- **Programmer 1:** [Programmer Name]
+- **Programmer:** [Cristian Silva]
+  - **Linkedin or Portfolio:** [https://www.linkedin.com/in/cristian-camilo-silva-padilla-476382147]
+
+- **Programmer:** [Programmer Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Programmer 2:** [Programmer Name]
+- **Programmer:** [Programmer Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Programmer 3:** [Programmer Name]
+- **Programmer:** [Programmer Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Programmer 4:** [Programmer Name]
-  - **Linkedin or Portfolio:** [Link]
-
-- **Programmer 5:** [Programmer Name]
+- **Programmer:** [Programmer Name]
   - **Linkedin or Portfolio:** [Link]
 
 ## Project Introduction

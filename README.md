@@ -12,14 +12,15 @@ This project represents a collaborative effort involving the entire course, unit
 
 ## Programmer Lead:
 
-## - **Artist lead:** [Sunflower Sealy ]
+## - **Artist lead:** 
+  ## Sunflower Sealy
   - **Linkedin or Portfolio:** [https://www.linkedin.com/in/sunflower-sealy-b0a742298/]
 
 ## Artists
 - **Artist:** [Artist Name]
   - **Linkedin or Portfolio:** [Link]
 
-- **Artist:** [Macsen Evans]
+- **Artist:**   Macsen Evans
   - **Linkedin or Portfolio:** [https://www.linkedin.com/in/macsen-evans-2b5a20211/]
 
 - **Artist:** [Artist Name]

@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 ﻿{
+=======
+{
+>>>>>>> Stashed changes
   "version": "1.0",
   "components": [
     "Microsoft.VisualStudio.Workload.ManagedGame"

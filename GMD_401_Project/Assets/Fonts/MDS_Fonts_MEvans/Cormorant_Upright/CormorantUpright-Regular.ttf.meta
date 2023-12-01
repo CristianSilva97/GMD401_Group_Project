@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 8fb1dbdb6e7e73647b96916d9fa9936b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cormorant Upright
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0d79877693dcbea4c814df07e8317d4e, type: 3}
+  - {fileID: 12800000, guid: c381cdb90cd08ff4aa34dc177ed7341a, type: 3}
+  - {fileID: 12800000, guid: c8d1e999066ad9a4192ed138143b1b72, type: 3}
+  - {fileID: 12800000, guid: 52fc0da84dba3f54596f37e19d67ef76, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

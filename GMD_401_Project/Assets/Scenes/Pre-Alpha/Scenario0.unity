@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -309,7 +309,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1487208830}
+  - {fileID: 1686719933}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -317,10 +317,10 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!224 &1487208830 stripped
+--- !u!224 &1686719933 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
-  m_PrefabInstance: {fileID: 505158862183231157}
+  m_CorrespondingSourceObject: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
+  m_PrefabInstance: {fileID: 8463936299055024869}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2007624187
 GameObject:
@@ -390,7 +390,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &505158862183231157
+--- !u!1001 &8463936299055024869
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -398,126 +398,95 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1130676577}
     m_Modifications:
-    - target: {fileID: 4003967840967759719, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 1061783074658844897, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_Name
-      value: Panel
+      value: TabManager
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1869.1335
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 542.5552
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.41027832
+      value: -159
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -173
+      value: -175
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4780635707376214247, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+    - target: {fileID: 4383420135811898769, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6108319560883394551, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
-      propertyPath: lines.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6108319560883394551, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
-      propertyPath: lines.Array.data[0]
-      value: 'In this scenario, we explore a complex ethical dilemma that arises
-        from a car accident involving a person with intellectual/developmental disabilities. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6108319560883394551, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
-      propertyPath: lines.Array.data[1]
-      value: 'The situation tests our moral values and challenges us to make difficult
-        decisions where there are no clear right or wrong answers. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6108319560883394551, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
-      propertyPath: lines.Array.data[2]
-      value: 'Sarah, a 30-year-old woman with Down syndrome, has been living in a
-        supportive, supervised adult community for individuals with intellectual/developmental
-        disabilities. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6108319560883394551, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
-      propertyPath: lines.Array.data[3]
-      value: 'She is an independent individual who often walks around the neighborhood,
-        as it''s an essential part of her daily routine. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6108319560883394551, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
-      propertyPath: lines.Array.data[4]
-      value: Sarah has no documented physical issues. Sarah is employed part-time
-        at a local convenience store. Her primary job there is to assist in restocking
-        merchandise.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 71a5b5c1539f7b64e8c658653ca32daf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

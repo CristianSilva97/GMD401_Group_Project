@@ -10,18 +10,20 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     private int index;
+    public GameObject readyButton; // Assign this button in the Inspector
+    private bool buttonShown = false; // Flag to track if the button has been shown
 
     void Start()
     {
         textComponent.text = string.Empty;
         continuePrompt.SetActive(false); // Hide the continue prompt initially
+        readyButton.SetActive(false); // Ensure the ready button is initially hidden
         StartDialogue();
     }
 
     void Update()
     {
-        // Change to listen for the space bar instead of mouse click
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (textComponent.text == lines[index])
             {
@@ -50,6 +52,13 @@ public class Dialogue : MonoBehaviour
             yield return new WaitForSeconds(textSpeed);
         }
         continuePrompt.SetActive(true); // Show the continue prompt when the line is complete
+
+        // Show the ready button only if it hasn't been shown before
+        if (index == lines.Length - 1 && !buttonShown)
+        {
+            readyButton.SetActive(true);
+            buttonShown = true;
+        }
     }
 
     void NextLine()
@@ -67,16 +76,36 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    public void RestartDialogue()
+    void EndDialogue()
+    {
+        if (!buttonShown)
+        {
+            readyButton.SetActive(true);
+            buttonShown = true;
+        }
+    }
+
+    public void ResetDialogue()
     {
         StopAllCoroutines();
         textComponent.text = string.Empty;
+        index = 0;
+        buttonShown = false; // Reset the buttonShown flag
+        continuePrompt.SetActive(false);
+        readyButton.SetActive(false); // Hide the ready button
         StartDialogue();
     }
-
-    void EndDialogue()
+    public void RestartDialogueFromBeginning()
     {
-        continuePrompt.SetActive(false); // Deactivate dialogue GameObject
-        // Additional actions for the end of the dialogue can be added here
+        StopAllCoroutines();
+        textComponent.text = string.Empty;
+        index = 0; // Reset the index to the start
+        continuePrompt.SetActive(false); // Hide the continue prompt
+        StartCoroutine(TypeLine());
     }
 }
+
+
+
+
+

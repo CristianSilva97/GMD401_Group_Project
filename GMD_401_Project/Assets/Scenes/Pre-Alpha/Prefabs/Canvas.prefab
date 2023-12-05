@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1153553930565640354}
   - component: {fileID: 3488992930938234325}
   - component: {fileID: 4526108419637189509}
+  - component: {fileID: 8192007397063210021}
   m_Layer: 5
   m_Name: Banner
   m_TagString: Untagged
@@ -119,7 +120,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3488992930938234325}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8192007397063210021}
+        m_TargetAssemblyTypeName: openLink, Assembly-CSharp
+        m_MethodName: OpenWilmu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8192007397063210021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2819397150246897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54fbdaab3c9820e46bda6fb69ce070cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &369141682256440173
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,8 +157,9 @@ GameObject:
   - component: {fileID: 7344098326809167472}
   - component: {fileID: 6790467150470048244}
   - component: {fileID: 2383599689301227522}
+  - component: {fileID: 5665077077783061951}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Dictionary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -252,6 +278,30 @@ MonoBehaviour:
           m_StringArgument: hint_toggle
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5665077077783061951}
+        m_TargetAssemblyTypeName: openLink, Assembly-CSharp
+        m_MethodName: OpenDictionary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5665077077783061951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369141682256440173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54fbdaab3c9820e46bda6fb69ce070cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &917402247404780233
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,7 +638,7 @@ GameObject:
   - component: {fileID: 4366391437200375350}
   - component: {fileID: 8781110621694226180}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: HamburgerMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -956,7 +1006,7 @@ GameObject:
   - component: {fileID: 7737585052821597819}
   - component: {fileID: 7219170451925482539}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1153,7 +1203,7 @@ GameObject:
   - component: {fileID: 5821178959363478334}
   - component: {fileID: 7934468852300605247}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

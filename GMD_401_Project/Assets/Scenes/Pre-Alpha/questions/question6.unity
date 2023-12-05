@@ -501,15 +501,15 @@ RectTransform:
   m_GameObject: {fileID: 178109353}
   m_LocalRotation: {x: 0, y: 0, z: -0.008726465, w: 0.999962}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2513644, y: 1.2513644, z: 1.2513644}
+  m_LocalScale: {x: 1.1591, y: 1.1591, z: 1.1591}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 747625634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 576.76526, y: -1091.1796}
-  m_SizeDelta: {x: 307.506, y: 45.965}
+  m_AnchoredPosition: {x: 468.99994, y: -1080.5599}
+  m_SizeDelta: {x: 135, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &178109355
 MonoBehaviour:
@@ -558,8 +558,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1764,7 +1764,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5, y: -0.50001717}
+  m_AnchoredPosition: {x: -7.5, y: -0.5}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &531747112
@@ -1800,7 +1800,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fair, equitable, and appropriate treatment.
+  m_Text: dscsdvsd
 --- !u!222 &531747113
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2116,7 +2116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5, y: -0.50001335}
+  m_AnchoredPosition: {x: -7.5, y: -0.5}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848922722
@@ -2453,8 +2453,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 528.59796, y: -895.1392}
-  m_SizeDelta: {x: 238.402, y: 63.622}
+  m_AnchoredPosition: {x: 468.99994, y: -875.76996}
+  m_SizeDelta: {x: 135, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1074565832
 MonoBehaviour:
@@ -2503,8 +2503,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2786,8 +2786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1042.1783, y: -1118.9896}
-  m_SizeDelta: {x: 166.479, y: 38.533}
+  m_AnchoredPosition: {x: 995.9899, y: -1108.5599}
+  m_SizeDelta: {x: 135, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1133171102
 MonoBehaviour:
@@ -2838,11 +2838,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Fair, equitable, and appropriate treatment.
+    - m_Text: dscsdvsd
       m_Image: {fileID: 0}
-    - m_Text: The right of an individual to control their personal information
+    - m_Text: dsdvsv
       m_Image: {fileID: 0}
-    - m_Text: Act in a manner to avoid causing harm.
+    - m_Text: test3rigthDef
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3031,7 +3031,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: test1defright
+  m_Text: testwrong
 --- !u!222 &1158398525
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3469,8 +3469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1040.6886, y: -924.6293}
-  m_SizeDelta: {x: 165.591, y: 45.631}
+  m_AnchoredPosition: {x: 995.9899, y: -903.76996}
+  m_SizeDelta: {x: 135, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230856551
 MonoBehaviour:
@@ -3521,11 +3521,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: 'Act in ways that benefit the patient. '
+    - m_Text: efwsef
       m_Image: {fileID: 0}
-    - m_Text: Act in a manner to avoid causing harm.
+    - m_Text: test2rigthDef
       m_Image: {fileID: 0}
-    - m_Text: Truthfulness
+    - m_Text: vdfvdf
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4558,7 +4558,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Act in ways that benefit the patient. '
+  m_Text: efwsef
 --- !u!222 &1587651328
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4657,11 +4657,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: test1defright
+    - m_Text: testwrong
       m_Image: {fileID: 0}
-    - m_Text: dljhkfbljka
+    - m_Text: testwrong
       m_Image: {fileID: 0}
-    - m_Text: sjdafvj
+    - m_Text: test1rigthDef
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4946,8 +4946,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 552.4374, y: -685.89954}
-  m_SizeDelta: {x: 279.396, y: 55.192}
+  m_AnchoredPosition: {x: 469, y: -671}
+  m_SizeDelta: {x: 135, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1697984460
 MonoBehaviour:
@@ -4969,9 +4969,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'test1
-
-'
+  m_text: test1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4998,8 +4996,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5709,8 +5707,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 516.6783, y: -1298.6696}
-  m_SizeDelta: {x: 217.659, y: 53.699}
+  m_AnchoredPosition: {x: 468.99994, y: -1285.2599}
+  m_SizeDelta: {x: 135, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1879812706
 MonoBehaviour:
@@ -5759,8 +5757,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6254,8 +6252,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1036.2186, y: -1328.1593}
-  m_SizeDelta: {x: 162.486, y: 41.638}
+  m_AnchoredPosition: {x: 995.9899, y: -1313.2599}
+  m_SizeDelta: {x: 135, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2145089561
 MonoBehaviour:
@@ -6308,7 +6306,7 @@ MonoBehaviour:
     m_Options:
     - m_Text: fervfe
       m_Image: {fileID: 0}
-    - m_Text: 'Truthfulness '
+    - m_Text: test4rigthDef
       m_Image: {fileID: 0}
     - m_Text: kjefkrhbvfkeetr
       m_Image: {fileID: 0}
@@ -6976,16 +6974,8 @@ MonoBehaviour:
   textComponent: {fileID: 4807593911380801146}
   continuePrompt: {fileID: 1221860577159922089}
   lines:
-  - 'In this scenario, we explore a complex ethical dilemma that arises from a car
-    accident involving a person with intellectual/developmental disabilities. '
-  - 'The situation tests our moral values and challenges us to make difficult decisions
-    where there are no clear right or wrong answers. '
-  - 'Sarah, a 30-year-old woman with Down syndrome, has been living in a supportive,
-    supervised adult community for individuals with intellectual/developmental disabilities. '
-  - 'She is an independent individual who often walks around the neighborhood, as
-    it''s an essential part of her daily routine. '
-  - Sarah has no documented physical issues. Sarah is employed part-time at a local
-    convenience store. Her primary job there is to assist in restocking merchandise.
+  - '#6 What possible ethical principle could they violate? Select from the following
+    list.  '
   textSpeed: 0.001
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484

@@ -1581,16 +1581,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212203430}
+      - m_Target: {fileID: 1562525724}
         m_TargetAssemblyTypeName: SimpleSceneTransition, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: question3
+          m_StringArgument: question6
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1540950347
@@ -3161,9 +3161,8 @@ MonoBehaviour:
   textComponent: {fileID: 4807593911380801146}
   continuePrompt: {fileID: 1221860577159922089}
   lines:
-  - "#2 Let\u2019s start with Sarah; which two main ethical principles would challenge
-    the decision-making process, creating an ethical dilemma? Select the best answer:
-    \r\n\r\n"
+  - 'ANA Code of Ethics: Which Provision directly relates to your answer to question
+    3?'
   textSpeed: 0.001
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484

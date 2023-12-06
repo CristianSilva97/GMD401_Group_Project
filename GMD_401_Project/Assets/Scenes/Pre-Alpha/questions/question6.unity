@@ -1535,7 +1535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1623.286, y: -883.52}
+  m_AnchoredPosition: {x: 1616, y: -1301}
   m_SizeDelta: {x: 422.279, y: 593.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1229288845
@@ -3434,7 +3434,7 @@ MonoBehaviour:
     in the past. The community\r\nhas gone to the mayor and requested traffic lights,
     but nothing has been changed.\r\nAs a Health Care professional \u2013 how might
     you contribute to a solution? \r\n\r\n"
-  textSpeed: 0.001
+  textSpeed: 0.025
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484
 CanvasRenderer:

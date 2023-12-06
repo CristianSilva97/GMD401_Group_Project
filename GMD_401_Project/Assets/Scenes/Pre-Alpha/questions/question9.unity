@@ -1249,7 +1249,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: question9
+          m_StringArgument: youWin
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &882246156
@@ -1533,7 +1533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1653.6, y: -918.06}
+  m_AnchoredPosition: {x: 1645, y: -1405}
   m_SizeDelta: {x: 367.77, y: 654.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1229288845
@@ -3434,7 +3434,7 @@ MonoBehaviour:
 
 
 '
-  textSpeed: 0.001
+  textSpeed: 0.025
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484
 CanvasRenderer:

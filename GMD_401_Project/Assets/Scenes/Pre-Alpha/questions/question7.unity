@@ -3163,7 +3163,7 @@ MonoBehaviour:
   lines:
   - What possible ethical principle could they violate? Select from the following
     list.
-  textSpeed: 0.001
+  textSpeed: 0.025
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484
 CanvasRenderer:

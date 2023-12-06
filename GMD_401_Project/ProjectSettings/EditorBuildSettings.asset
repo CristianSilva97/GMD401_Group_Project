@@ -62,4 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pre-Alpha/questions/question9.unity
     guid: efd0774678637b540882b6e3a0c1745c
+  - enabled: 1
+    path: Assets/Scenes/Pre-Alpha/Accident Scenes/accidentFlashback.unity
+    guid: 895fc67f1fe758c44af59fe438c02068
+  - enabled: 1
+    path: Assets/Scenes/Pre-Alpha/youWin.unity
+    guid: ea93a7235a3370e44890879ca8a0434d
   m_configObjects: {}

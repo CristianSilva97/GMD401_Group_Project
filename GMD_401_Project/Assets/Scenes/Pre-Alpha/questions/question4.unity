@@ -3162,7 +3162,7 @@ MonoBehaviour:
   continuePrompt: {fileID: 1221860577159922089}
   lines:
   - 'What is your main concern about Sarah relating to Ethical Principles? '
-  textSpeed: 0.001
+  textSpeed: 0.025
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484
 CanvasRenderer:

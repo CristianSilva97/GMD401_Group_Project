@@ -600,7 +600,7 @@ MonoBehaviour:
   continueButton: {fileID: 7987307209918682687}
   continueButton2: {fileID: 196053363}
   yourAnimation: {fileID: 1948319190}
-  delay: 0.001
+  delay: 0.025
 --- !u!4 &1299606831
 Transform:
   m_ObjectHideFlags: 0

@@ -3164,7 +3164,7 @@ MonoBehaviour:
   lines:
   - '#3 Out of the following, What would be the logical next steps in providing appropriate
     decisions and care for Sarah? '
-  textSpeed: 0.001
+  textSpeed: 0.025
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484
 CanvasRenderer:

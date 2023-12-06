@@ -1663,7 +1663,7 @@ MonoBehaviour:
     it''s an essential part of her daily routine. '
   - Sarah has no documented physical issues. Sarah is employed part-time at a local
     convenience store. Her primary job there is to assist in restocking merchandise.
-  textSpeed: 0.001
+  textSpeed: 0.025
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484
 CanvasRenderer:

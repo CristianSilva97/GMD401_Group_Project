@@ -3164,7 +3164,7 @@ MonoBehaviour:
   - "#2 Let\u2019s start with Sarah; which two main ethical principles would challenge
     the decision-making process, creating an ethical dilemma? Select the best answer:
     \r\n\r\n"
-  textSpeed: 0.001
+  textSpeed: 0.025
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484
 CanvasRenderer:

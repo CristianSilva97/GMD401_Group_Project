@@ -922,6 +922,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6535606785351786609, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
+      propertyPath: textSpeed
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535606785351786609, guid: 596ef1b136bbda742bdd1ad7c3400f28, type: 3}
       propertyPath: readyButton
       value: 
       objectReference: {fileID: 814623206}

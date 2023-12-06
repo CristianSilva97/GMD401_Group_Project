@@ -11,6 +11,7 @@ public class QuizManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI correctText;
     public TextMeshProUGUI incorrectText;
+   
     [SerializeField]
     private FloatSO scoreSO;
 

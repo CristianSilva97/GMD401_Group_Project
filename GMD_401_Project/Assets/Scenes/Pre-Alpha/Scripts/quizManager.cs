@@ -1,76 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class QuizManager : MonoBehaviour
 {
-    public TextMeshProUGUI questionText;
-    public TextMeshProUGUI resultText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI correctText;
+    public TextMeshProUGUI incorrectText;
+   
+    [SerializeField]
+    private FloatSO scoreSO;
 
-    private List<Question> questions = new List<Question>();
-    private int currentQuestionIndex = 0;
-    private int score = 0;
-
-    void Start()
+    //When the button is pressed adds 1 to the value and prompts player to proceed
+    public void CorrectButtonPressed()
     {
-        InitializeQuestions();
-        ShowQuestion();
-    }
 
-    void InitializeQuestions()
-    {
-        // Add your questions and correct answers here
-        questions.Add(new Question("What is the capital of France?", "Paris"));
-        questions.Add(new Question("What is the largest planet in our solar system?", "Jupiter"));
-        // Add more questions as needed
-    }
-
-    void ShowQuestion()
-    {
-        if (currentQuestionIndex < questions.Count)
+        scoreSO.publicValue++;
+        if (scoreSO.publicValue >= 10)
         {
-            questionText.text = questions[currentQuestionIndex].QuestionText;
-            resultText.text = "";
+            scoreSO.publicValue = 10;
         }
-        else
-        {
-            EndQuiz();
-        }
+        scoreText.text = scoreSO.publicValue + "";
+        correctText.text = "Correct! \n Proceed to the next question.";
+        Debug.Log("You pressed the correct button!");
     }
 
-    public void CheckAnswer(string userAnswer)
+    //When the button is pressed prompts player to try again
+    public void IncorrectButtonPressed()
     {
-        if (userAnswer.ToLower() == questions[currentQuestionIndex].CorrectAnswer.ToLower())
+        if (scoreSO.publicValue <= 0)
         {
-            resultText.text = "Correct!";
-            score++;
+            scoreSO.publicValue = 0;
         }
-        else
-        {
-            resultText.text = $"Incorrect! Please try again!" ;
-        }
-
-        currentQuestionIndex++;
-        ShowQuestion();
-    }
-
-    void EndQuiz()
-    {
-        questionText.text = "Quiz Completed!";
-        resultText.text = $"Your Score: {score}/{questions.Count}";
-    }
-}
-
-[System.Serializable]
-public class Question
-{
-    public string QuestionText;
-    public string CorrectAnswer;
-
-    public Question(string questionText, string correctAnswer)
-    {
-        QuestionText = questionText;
-        CorrectAnswer = correctAnswer;
+        scoreText.text = scoreSO.publicValue + "";
+        incorrectText.text = "Incorrect! \n Please press redo to try again.";
+        Debug.Log("Uh Oh! You pressed the incorrect button!");
     }
 }

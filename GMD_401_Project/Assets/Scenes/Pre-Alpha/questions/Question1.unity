@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 178109356}
   - component: {fileID: 178109355}
   m_Layer: 5
-  m_Name: test3
+  m_Name: Nonmaleficence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -501,15 +501,15 @@ RectTransform:
   m_GameObject: {fileID: 178109353}
   m_LocalRotation: {x: 0, y: 0, z: -0.008726465, w: 0.999962}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1591, y: 1.1591, z: 1.1591}
+  m_LocalScale: {x: 1.2513644, y: 1.2513644, z: 1.2513644}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 747625634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 468.99994, y: -1080.5599}
-  m_SizeDelta: {x: 135, y: 32}
+  m_AnchoredPosition: {x: 576.76526, y: -1091.1796}
+  m_SizeDelta: {x: 307.506, y: 45.965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &178109355
 MonoBehaviour:
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: test3
+  m_text: Nonmaleficence
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -558,8 +558,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1764,7 +1764,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5, y: -0.5}
+  m_AnchoredPosition: {x: -7.5, y: -0.50001717}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &531747112
@@ -1800,7 +1800,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: dscsdvsd
+  m_Text: Fair, equitable, and appropriate treatment.
 --- !u!222 &531747113
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2116,7 +2116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5, y: -0.5}
+  m_AnchoredPosition: {x: -7.5, y: -0.50001335}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848922722
@@ -2152,7 +2152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: fervfe
+  m_Text: 'The right of an individual to control their personal information. '
 --- !u!222 &848922723
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2431,7 +2431,7 @@ GameObject:
   - component: {fileID: 1074565833}
   - component: {fileID: 1074565832}
   m_Layer: 5
-  m_Name: test2
+  m_Name: Beneficence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2453,8 +2453,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 468.99994, y: -875.76996}
-  m_SizeDelta: {x: 135, y: 32}
+  m_AnchoredPosition: {x: 528.59796, y: -895.1392}
+  m_SizeDelta: {x: 238.402, y: 63.622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1074565832
 MonoBehaviour:
@@ -2476,7 +2476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: test2
+  m_text: Beneficence
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2503,8 +2503,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2786,8 +2786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 995.9899, y: -1108.5599}
-  m_SizeDelta: {x: 135, y: 32}
+  m_AnchoredPosition: {x: 1042.1783, y: -1118.9896}
+  m_SizeDelta: {x: 186.594, y: 52.493}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1133171102
 MonoBehaviour:
@@ -2838,11 +2838,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: dscsdvsd
+    - m_Text: Fair, equitable, and appropriate treatment.
       m_Image: {fileID: 0}
-    - m_Text: dsdvsv
+    - m_Text: The right of an individual to control their personal information
       m_Image: {fileID: 0}
-    - m_Text: test3rigthDef
+    - m_Text: Act in a manner to avoid causing harm.
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3031,7 +3031,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: testwrong
+  m_Text: test1defright
 --- !u!222 &1158398525
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3308,14 +3308,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wordDefinitionPairs:
-  - word: test1
-    correctDefinition: test1rigthDef
-  - word: test2
-    correctDefinition: test2rigthDef
-  - word: test3
-    correctDefinition: test3rigthDef
-  - word: test4
-    correctDefinition: test4rigthDef
+  - word: Autonomy
+    correctDefinition: "Having the freedom to choose issues that affect one\u2019s
+      life. "
+  - word: Beneficiance
+    correctDefinition: 'Act in ways that benefit the patient. '
+  - word: Nonmaleficence
+    correctDefinition: Act in a manner to avoid causing harm.
+  - word: Veracity
+    correctDefinition: Truthfulness
   definitionDropdowns:
   - {fileID: 1597387887}
   - {fileID: 1230856551}
@@ -3469,8 +3470,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 995.9899, y: -903.76996}
-  m_SizeDelta: {x: 135, y: 32}
+  m_AnchoredPosition: {x: 1046, y: -935}
+  m_SizeDelta: {x: 186.594, y: 52.493}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230856551
 MonoBehaviour:
@@ -3521,11 +3522,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: efwsef
+    - m_Text: 'Act in ways that benefit the patient. '
       m_Image: {fileID: 0}
-    - m_Text: test2rigthDef
+    - m_Text: Act in a manner to avoid causing harm.
       m_Image: {fileID: 0}
-    - m_Text: vdfvdf
+    - m_Text: Truthfulness
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4558,7 +4559,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: efwsef
+  m_Text: 'Act in ways that benefit the patient. '
 --- !u!222 &1587651328
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4600,13 +4601,14 @@ RectTransform:
   m_Children:
   - {fileID: 1158398523}
   - {fileID: 1577890824}
+  - {fileID: 1675025296}
   - {fileID: 2042120861}
   m_Father: {fileID: 747625634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 995.9899, y: -699}
-  m_SizeDelta: {x: 135, y: 32}
+  m_SizeDelta: {x: 186.594, y: 52.493}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597387887
 MonoBehaviour:
@@ -4657,11 +4659,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: testwrong
+    - m_Text: test1defright
       m_Image: {fileID: 0}
-    - m_Text: testwrong
+    - m_Text: dljhkfbljka
       m_Image: {fileID: 0}
-    - m_Text: test1rigthDef
+    - m_Text: sjdafvj
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4780,6 +4782,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609979306}
   m_CullTransparentMesh: 1
+--- !u!1 &1675025295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675025296}
+  - component: {fileID: 1675025299}
+  - component: {fileID: 1675025298}
+  - component: {fileID: 1675025297}
+  m_Layer: 5
+  m_Name: ready (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1675025296
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675025295}
+  m_LocalRotation: {x: -0, y: -0, z: 0.008726465, w: 0.999962}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.11319989, y: 0.11319989, z: 0.11319989}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1597387886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 258, y: -237}
+  m_SizeDelta: {x: 957, y: 477}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1675025297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675025295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1675025298}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1562525724}
+        m_TargetAssemblyTypeName: SimpleSceneTransition, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: context3
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1675025298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675025295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3aeddbe18d1da804d8af875b5a4c9e79, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1675025299
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675025295}
+  m_CullTransparentMesh: 1
 --- !u!1 &1692498365
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,7 +4949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45.295}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 490.6653, y: -222.76143}
+  m_AnchoredPosition: {x: 487, y: -131}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692498367
@@ -4924,7 +5058,7 @@ GameObject:
   - component: {fileID: 1697984461}
   - component: {fileID: 1697984460}
   m_Layer: 5
-  m_Name: test1
+  m_Name: Autonomy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4946,8 +5080,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 469, y: -671}
-  m_SizeDelta: {x: 135, y: 32}
+  m_AnchoredPosition: {x: 552.4374, y: -685.89954}
+  m_SizeDelta: {x: 279.396, y: 55.192}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1697984460
 MonoBehaviour:
@@ -4969,7 +5103,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: test1
+  m_text: Autonomy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4996,8 +5130,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5685,7 +5819,7 @@ GameObject:
   - component: {fileID: 1879812707}
   - component: {fileID: 1879812706}
   m_Layer: 5
-  m_Name: test4
+  m_Name: Veracity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5707,8 +5841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 468.99994, y: -1285.2599}
-  m_SizeDelta: {x: 135, y: 32}
+  m_AnchoredPosition: {x: 516.6783, y: -1298.6696}
+  m_SizeDelta: {x: 217.659, y: 53.699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1879812706
 MonoBehaviour:
@@ -5730,7 +5864,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: test4
+  m_text: Veracity
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5757,8 +5891,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6252,8 +6386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 995.9899, y: -1313.2599}
-  m_SizeDelta: {x: 135, y: 32}
+  m_AnchoredPosition: {x: 1036.2186, y: -1328.1593}
+  m_SizeDelta: {x: 186.594, y: 52.493}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2145089561
 MonoBehaviour:
@@ -6304,11 +6438,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: fervfe
+    - m_Text: 'The right of an individual to control their personal information. '
       m_Image: {fileID: 0}
-    - m_Text: test4rigthDef
+    - m_Text: 'Truthfulness '
       m_Image: {fileID: 0}
-    - m_Text: kjefkrhbvfkeetr
+    - m_Text: 'Faithfulness, keeping promises, loyalty within the nurse-patient relationship '
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6974,10 +7108,7 @@ MonoBehaviour:
   textComponent: {fileID: 4807593911380801146}
   continuePrompt: {fileID: 1221860577159922089}
   lines:
-  - 'Moving to the hospital ER. You are the admitting healthcare person. You are
-    charged with gathering important information about the victims. Sarah and Alex
-    have been admitted to the ER and are being treated. '
-  - "#7 What is your primary concern involving Sarah\u2019s care"
+  - '#1 Choose the correct definition for each of the principles.'
   textSpeed: 0.001
   readyButton: {fileID: 289227223}
 --- !u!222 &7647885128524347484

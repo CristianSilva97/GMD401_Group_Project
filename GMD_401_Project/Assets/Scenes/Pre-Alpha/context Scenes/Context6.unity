@@ -313,8 +313,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.525}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.9477, y: 17.9328}
-  m_SizeDelta: {x: 620.6431, y: 160.3013}
+  m_AnchoredPosition: {x: 6.8428, y: 23.0928}
+  m_SizeDelta: {x: 660.53, y: 190.2503}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &548932865
 CanvasRenderer:
@@ -346,7 +346,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4a0c5f78b21fb6d41b2edbd069bef482, type: 3}
-    m_FontSize: 16
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -357,9 +357,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Before we explore this scenario, we will begin by reviewing the principles
-    of Ethics. Healthcare providers need to understand ethical principles and adapt
-    to applying them in a meaningful and consistent manner.  '
+  m_Text: "Now, let\u2019s consider what we don\u2019t know about Sarah, which may
+    include: \r\n1)\tWho makes decisions about her medical care decisions?\r\n2)\tAre
+    there other possible disabilities she may have?\r\n3)\tWhat is her cognitive
+    ability/judgment?\r\n4)\tAre there safety rules in the group home? Is she allowed
+    to be out alone?\r\n5)\tWhat other pertinent medical history does she have?  
+    \r\n6)\tWhat else can you think of we don\u2019t know ?\n"
 --- !u!1 &1299606829
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,7 +833,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Question1
+          m_StringArgument: question2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &7373931444654223262

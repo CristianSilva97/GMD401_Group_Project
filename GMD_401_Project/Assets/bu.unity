@@ -1472,7 +1472,7 @@ MonoBehaviour:
     - you
     - him
     correctAnswerIndex: 0
-  - questionText: who will you be?
+  - questionText: who ou be?
     answers:
     - better
     - unique

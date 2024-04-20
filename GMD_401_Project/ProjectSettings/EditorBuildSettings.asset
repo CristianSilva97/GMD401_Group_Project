@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Pre-Alpha/Question4.unity
     guid: e30bc8fd251f7504d9e880378743084a
   - enabled: 1
+    path: Assets/Scenes/Pre-Alpha/Question5.unity
+    guid: 8117480a204af344184f556dd171d7ea
+  - enabled: 1
+    path: Assets/Scenes/Pre-Alpha/Question6.unity
+    guid: 909b8d1d8b86b2644a385c31dd0922ff
+  - enabled: 1
     path: Assets/Scenes/Pre-Alpha/End.unity
     guid: 88c4ad762ce87954ca2fa69f446123a6
   m_configObjects: {}

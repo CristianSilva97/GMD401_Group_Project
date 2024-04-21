@@ -17,7 +17,7 @@ public class openLink : MonoBehaviour
     }
     public void OpenDictionary()
     {
-        Application.OpenURL("https://www.dictionary.com/");
+        Application.OpenURL("https://www.nursingworld.org/practice-policy/nursing-excellence/ethics/code-of-ethics-for-nurses/");
     }
     public void OpenGithub()
     {

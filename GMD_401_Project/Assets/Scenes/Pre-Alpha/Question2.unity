@@ -292,6 +292,151 @@ PrefabInstance:
       addedObject: {fileID: 2030845340}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a702d621e33cd944a1aea4304598b33, type: 3}
+--- !u!1 &1057455297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057455300}
+  - component: {fileID: 1057455299}
+  - component: {fileID: 1057455298}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1057455298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057455297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2302ee90df03115448f590a7ed301b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 6bb6e21a8bbc745499e9de53423fb5ab, type: 3}
+  - {fileID: 8300000, guid: 5eac4cdbcc0f31048b20da416045e435, type: 3}
+  - {fileID: 8300000, guid: 56fa70b6e363fd441812bcceaabc846f, type: 3}
+--- !u!82 &1057455299
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057455297}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1057455300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057455297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 469.93506, y: 174.70567, z: -2.4533298}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1562525723
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,14 +914,17 @@ MonoBehaviour:
   lines:
   - "Three pedestrians witnessed the accident. One is a nurse, and the other two
     are students at a local university. One student calls 911 to report the accident.
-    All three begin to video the scene. \r\nA State Police officer arrives at the
-    accident scene, followed shortly by EMS. The police officer immediately focuses
-    on the evidence at the scene, which includes empty beer cans found in the back
-    of Alex\u2019s car.  \r"
-  - "The EMT team aids in providing care for Sarah who is unconscious. One EMT does
-    begin speaking with Alex.\nWhile being evaluated by the EMT, Alex becomes combative
-    and states he needs to leave to get to work so he doesn\u2019t get fired. Alex
-    becomes disoriented and collapses. \r"
+    All three begin to video the scene. \r\nThe State Police arrive at the accident
+    scene, followed by EMS. The police immediately\r\nfocus on the evidence, which
+    includes the empty beer cans, and the EMT team aids in\r\nproviding care for
+    Sarah. Sarah is unconscious. One EMT is speaking with Alex.\r"
+  - 'Alex is now late for work, and his job may be in jeopardy since he has a habit
+    of arriving
+
+    late and is currently on probation. While being evaluated by
+    the EMT, Alex becomes
+
+    combative and collapses.'
   textSpeed: 0.025
   readyButton: {fileID: 2145701838330171342}
 --- !u!222 &857059242430312573
@@ -2202,3 +2350,4 @@ SceneRoots:
   - {fileID: 2074857291}
   - {fileID: 267977464}
   - {fileID: 1562525725}
+  - {fileID: 1057455300}

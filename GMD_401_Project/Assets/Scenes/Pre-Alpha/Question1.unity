@@ -289,6 +289,67 @@ PrefabInstance:
       addedObject: {fileID: 4383420136805765942}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a702d621e33cd944a1aea4304598b33, type: 3}
+--- !u!1 &723200840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 699548613331857603, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &723200842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723200840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322883555e9980d4da6bbf730ec26a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 936002836}
+  continuePrompt: {fileID: 2059054257}
+  lines:
+  - Sarah, a 30-year-old woman with Down syndrome, has been living in a supportive,
+    supervised adult community for individuals with intellectual/developmental disabilities.
+    She is an independent individual who often walks around the neighborhood, as
+    it's an essential part of her daily routine. Sarah has no documented physical
+    issues. Sarah is employed part-time at a local convenience store. Her primary
+    job there is to assist in restocking merchandise.
+  - 'On a sunny afternoon, Sarah decides to take her daily walk around the neighborhood.
+    While walking near a busy intersection, Sarah suddenly steps onto the road just
+    as a car approaches.
+
+    The driver, Alex, is on his way to work. He is thinking
+    about the past evening when he
+
+    was with his friends. As a result of being
+    with his friends the evening before, empty beer
+
+    cans are left on the car''s
+    floor.'
+  - "\rAlex is unable to react in time to avoid hitting Sarah. A collision occurs,
+    causing Sarah to sustain injuries, and is unconscious. The car's damage is extensive.
+    Alex immediately stops the car; he has sustained what appears to be minor injuries.
+    The car airbags did release, which caused Alex difficulty in exiting his vehicle.
+    Once Alex can exit, he rushes to Sarah's aid. \r\n"
+  textSpeed: 0.025
+  readyButton: {fileID: 1214442967}
+--- !u!114 &936002836 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7962544153999227707, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1214442967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1633130945179189294, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562525723
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +712,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030845339}
   m_CullTransparentMesh: 1
+--- !u!1 &2059054257 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6815311592903450654, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2059054259 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7302185267223284324, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059054257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2059054261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059054257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2059054259}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 723200842}
+        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
+        m_MethodName: SendMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: NextLine()
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2074857288
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,19 +861,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1901818435}
     m_Modifications:
     - target: {fileID: 55995740073568334, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 55995740073568334, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
       propertyPath: lines.Array.data[1]
-      value: 'On a sunny afternoon, Sarah decides to take her daily walk around the
-        neighborhood. While walking near a busy intersection, Sarah suddenly steps
-        onto the road just as a car approaches.
-
-        The driver, Alex, is on
-        his way to work. He is thinking about the past evening when he
-
-        was
-        with his friends. As a result of being with his friends the evening before,
-        empty beer
-
-        cans are left on the car''s floor.'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 55995740073568334, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4972226188599986780, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -846,13 +976,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShowTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 55995740073568334, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9029734056485580052, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2030845340}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 699548613331857603, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 723200842}
+    - targetCorrespondingSourceObject: {fileID: 6815311592903450654, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2059054261}
   m_SourcePrefab: {fileID: 100100000, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
 --- !u!95 &823344565871710177 stripped
 Animator:

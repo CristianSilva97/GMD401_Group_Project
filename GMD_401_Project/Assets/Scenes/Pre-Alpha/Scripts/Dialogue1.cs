@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class Dialogue : MonoBehaviour
+public class Dialogue1 : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public GameObject continuePrompt; // Assign in the inspector

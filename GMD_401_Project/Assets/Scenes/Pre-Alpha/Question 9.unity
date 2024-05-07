@@ -747,19 +747,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 479979176}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 166660841}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: PlayOneShot
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: fc9662025450d35489af58521252b1c4, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &479979176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,6 +786,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479979173}
   m_CullTransparentMesh: 1
+--- !u!1 &680763964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1633130945179189294, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &960972916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,6 +1484,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1660227529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7962544153999227707, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1674044126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 699548613331857603, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+  m_PrefabInstance: {fileID: 823344565871710176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1674044128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674044126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322883555e9980d4da6bbf730ec26a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1660227529}
+  continuePrompt: {fileID: 1655568194}
+  lines:
+  - 'True or False: A person with a developmental disability can never make medical
+    decisions for themselves'
+  textSpeed: 0.025
+  readyButton: {fileID: 680763964}
 --- !u!1 &1840789044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,8 +1809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 55995740073568334, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
       propertyPath: lines.Array.data[0]
-      value: 'True or False: A person with a developmental disability can never make
-        medical decisions for themselves'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 55995740073568334, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
       propertyPath: lines.Array.data[1]
@@ -1955,10 +1982,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShowTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 55995740073568334, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 699548613331857603, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1674044128}
     - targetCorrespondingSourceObject: {fileID: 6815311592903450654, guid: 156ab756200a6904a9bba4fa523f06ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1655568196}
